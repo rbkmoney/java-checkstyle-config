@@ -12,7 +12,7 @@ Usage example:
             <id>validate</id>
             <phase>validate</phase>
             <configuration>
-                <configLocation>https://raw.githubusercontent.com/rbkmoney/java-checkstyle-config/master/src/main/resources/rbkmoney_google_checkstyle.xml</configLocation>
+                <configLocation>https://raw.githubusercontent.com/rbkmoney/java-checkstyle-config/master/conf/rbkmoney_google_checkstyle.xml</configLocation>
                 <encoding>UTF-8</encoding>
                 <failsOnError>true</failsOnError>
                 <consoleOutput>true</consoleOutput>
