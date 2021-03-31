@@ -240,7 +240,7 @@
                     PARAMETER_DEF, VARIABLE_DEF, METHOD_DEF"/>
         </module>
         <module name="OverloadMethodsDeclarationOrder"/>
-        <module name="VariableDeclarationUsageDistance"/>
+        <!-- <module name="VariableDeclarationUsageDistance"/> -->
         <!-- Removed ImportOrder cause no one cares -->
         <module name="MethodParamPad">
             <property name="tokens"
