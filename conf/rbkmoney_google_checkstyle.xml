@@ -41,15 +41,6 @@
         <property name="eachLine" value="true"/>
     </module>
 
-    <!-- Increased from 100 to 120 to match IDEA defaults -->
-    <module name="LineLength">
-        <property name="fileExtensions" value="java"/>
-        <property name="max" value="120"/>
-        <!-- Added 'private final .*' not to mess with long bean names -->
-        <property name="ignorePattern"
-                  value="^package.*|^import.*|^ *private final .*"/>
-    </module>
-
     <module name="TreeWalker">
         <module name="SuppressWarningsHolder"/>
         <module name="OuterTypeFilename"/>
