@@ -35,11 +35,6 @@
     </module>
     <module name="SuppressWarningsFilter"/>
 
-    <!-- Checks for whitespace                               -->
-    <!-- See http://checkstyle.org/config_whitespace.html -->
-    <module name="FileTabCharacter">
-        <property name="eachLine" value="true"/>
-    </module>
 
     <!-- Increased from 100 to 120 to match IDEA defaults -->
     <module name="LineLength">
